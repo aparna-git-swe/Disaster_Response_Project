@@ -4,6 +4,14 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
+    """ To get the raw data from two csv files one contains messages and another one all the labels to categorize 
+        the paticular message both have unique column called id
+    Args:
+        messages_filepath : CSV file path for messages 
+        categories_filepath : CSV file path for all the labeled categories 
+    Returns:
+        merged dataframe of messages and categories dataframes
+    """
     dis_msg_df =pd.read_csv(messages_filepath)
     dis_cat_df= pd.read_csv(categories_filepath)
     merge_df = dis_msg_df.merge(dis_cat_df)
@@ -11,6 +19,13 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
+     """ To clean the data , which includes transform the categories data into different columns 
+        and also assign the particular column names, also drops the duplicate rows from the cleaned data
+    Args:
+        df : dataframe
+    Returns:
+        cleaned dataframe
+    """
     df_cat = df.categories.str.split(';',expand=True)
     row= df_cat[:1]
     cat_columns= [(str.split('-'))[0] for str in row.values[0]]
@@ -23,7 +38,13 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
-    
+    """ Save the cleaned data as a SQL table in sqlite database
+    Args:
+        df : Cleaned data
+        database_filename : database filepath
+    Returns:
+        Nothing
+    """
    
     engine= create_engine(f"sqlite:///"+ database_filename)
     df.to_sql("disaster_messages", engine, index=False, if_exists='replace')#saving sql table to sqlite database

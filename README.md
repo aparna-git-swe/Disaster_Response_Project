@@ -56,4 +56,7 @@ There should be no extra libraries required to install apart from those coming t
 
 3. Go to http://0.0.0.0:3001/  
 
+## Screen Shots
+
+![1  main page](https://user-images.githubusercontent.com/67683259/106398068-22713c00-6411-11eb-8335-d708d1754ac2.jpg)
 

@@ -58,17 +58,21 @@ There should be no extra libraries required to install apart from those coming t
 
 ## Screen Shots
 
-Main page shows the Overview of Training Dataset & Distribution of Message Categories
+1.Main page shows the Overview of Training Dataset & Distribution of Message Categories
 
 ![1  main page](https://user-images.githubusercontent.com/67683259/106398068-22713c00-6411-11eb-8335-d708d1754ac2.jpg)
 
-After Entering 'Classify Message', we can see the category(ies) of which the message is classified to , highlighted in green
+2.After Entering 'Classify Message', we can see the category(ies) of which the message is classified to , highlighted in green
 
 ![3  classify result](https://user-images.githubusercontent.com/67683259/106398137-67956e00-6411-11eb-9900-04c9d664c5e1.jpg)
 
+3.Run process_data.py for ETL pipeline,output cleaned data is stored in database<br/>
+
 <img width="470" alt="process_data py output" src="https://user-images.githubusercontent.com/67683259/106398239-00c48480-6412-11eb-9650-20d50772f080.PNG">
 
+4.Run run.py in app's directory to run web app
 
+<img width="441" alt="app output" src="https://user-images.githubusercontent.com/67683259/106398278-39645e00-6412-11eb-98c0-f2016baca8f9.PNG">
 
 
 

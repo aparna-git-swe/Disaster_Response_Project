@@ -1,4 +1,4 @@
-# Disaster Response Project Pipeline
+# Disaster Response Pipeline Project
 
 ## Table of contents
 1.Introduction

@@ -70,7 +70,11 @@ There should be no extra libraries required to install apart from those coming t
 
 <img width="470" alt="process_data py output" src="https://user-images.githubusercontent.com/67683259/106398239-00c48480-6412-11eb-9650-20d50772f080.PNG">
 
-4.Run run.py in app's directory to run web app
+4.Run train_classifier.py for ML pipeline
+<img width="408" alt="train_classifier py output" src="https://user-images.githubusercontent.com/67683259/106399304-1e94e800-6418-11eb-8433-2f7ee0b4d1c2.PNG">
+
+
+5.Run run.py in app's directory to run web app
 
 <img width="441" alt="app output" src="https://user-images.githubusercontent.com/67683259/106398278-39645e00-6412-11eb-98c0-f2016baca8f9.PNG">
 

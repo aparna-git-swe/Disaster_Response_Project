@@ -66,4 +66,9 @@ After Entering 'Classify Message', we can see the category(ies) of which the mes
 
 ![3  classify result](https://user-images.githubusercontent.com/67683259/106398137-67956e00-6411-11eb-9900-04c9d664c5e1.jpg)
 
+<img width="470" alt="process_data py output" src="https://user-images.githubusercontent.com/67683259/106398239-00c48480-6412-11eb-9650-20d50772f080.PNG">
+
+
+
+
 

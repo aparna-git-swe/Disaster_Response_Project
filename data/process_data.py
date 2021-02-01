@@ -33,6 +33,12 @@ def clean_data(df):
     cat_columns= [(str.split('-'))[0] for str in row.values[0]]
     df_cat= df_cat.applymap(lambda x : int(x.split('-')[-1]) )#rows with only values
     df_cat.columns=cat_columns
+    # convert category values to just numbers 0 or 1
+    for column in df_cat:
+        # set each value to be the last character of the string
+        df_cat[column] = df_cat[column].astype(str).str[-1]
+        # convert column from string to numeric
+        df_cat[column] = df_cat[column].astype(int)
     df= df.drop(columns='categories',axis=1)
     df=pd.concat([df,df_cat],axis=1)
     df=df.drop_duplicates()

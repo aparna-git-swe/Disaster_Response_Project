@@ -54,7 +54,7 @@ There should be no extra libraries required to install apart from those coming t
 2. Run the following command  to run your web app.
     `python app/run.py`
 
-3. Go to http://0.0.0.0:3001/  (https://view6914b2f4-3001.udacity-student-workspaces.com/)
+3. Go to http://0.0.0.0:3001/  
 
 ## Screen Shots
 

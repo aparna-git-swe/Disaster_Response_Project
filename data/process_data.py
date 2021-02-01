@@ -4,6 +4,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
+    
     """ To get the raw data from two csv files one contains messages and another one all the labels to categorize 
         the paticular message both have unique column called id
     Args:
@@ -19,7 +20,8 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
-     """ To clean the data , which includes transform the categories data into different columns 
+    
+    """ To clean the data , which includes transform the categories data into different columns 
         and also assign the particular column names, also drops the duplicate rows from the cleaned data
     Args:
         df : dataframe
@@ -38,6 +40,7 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
+    
     """ Save the cleaned data as a SQL table in sqlite database
     Args:
         df : Cleaned data

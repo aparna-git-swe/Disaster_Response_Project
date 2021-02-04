@@ -1,15 +1,15 @@
 # Disaster Response Pipeline Project
 
 ## Table of contents
-1.Introduction
+1.[Introduction](https://github.com/aparna-git-swe/Disaster_Response_Project#introduction)
 
-2.File Description
+2.[File Description](https://github.com/aparna-git-swe/Disaster_Response_Project#file-description)
 
-3.Installation
+3.[Installation](https://github.com/aparna-git-swe/Disaster_Response_Project#Installation)
 
-4.Instructions
+4.[Instructions](https://github.com/aparna-git-swe/Disaster_Response_Project#Instructions)
 
-5.Screen shots
+5.[Screen shots](https://github.com/aparna-git-swe/Disaster_Response_Project#Screen shots)
 
 
 ## Introduction

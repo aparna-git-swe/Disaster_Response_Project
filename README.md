@@ -9,7 +9,7 @@
 
 4.[Instructions](https://github.com/aparna-git-swe/Disaster_Response_Project#Instructions)
 
-5.[Screen shots](https://github.com/aparna-git-swe/Disaster_Response_Project#Screen shots)
+5.[Screenshots](https://github.com/aparna-git-swe/Disaster_Response_Project#Screenshots)
 
 
 ## Introduction
